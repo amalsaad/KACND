@@ -1,0 +1,68 @@
+﻿.main-content {
+    margin-top: 70px;
+}
+
+.login-card {
+    float: none;
+    margin: 0 auto;
+    background-color: #efefef;
+    border-radius: 10px;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 0 3px 3px 0 #88888869;
+    border-right: 8px solid #b6be10;
+}
+
+h3.title {
+    text-align: center;
+    margin: 40px;
+}
+
+.input-group {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: 2px solid #b4b6b4;
+}
+
+.alert-danger {
+    margin: 20px;
+    text-align: right;
+}
+
+.input-login {
+    border: none;
+    background-color: #efefef;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-align: right;
+}
+
+.remember-div {
+    text-align: center;
+}
+
+.remember-lbl {
+    margin-right: 5px;
+    color: #686868;
+}
+
+.btn-div {
+    text-align: center;
+}
+
+.btn-login {
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #b6be10;
+    border-color: #b6be10;
+}
+
+.reset-div {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.reset-pass {
+    color: #686868;
+}
