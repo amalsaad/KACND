@@ -1,0 +1,124 @@
+﻿form .likert {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 35px;
+    display: block;
+    /*border-bottom: 2px solid #efefef;*/
+}
+
+    form .likert:last-of-type {
+        border-bottom: 0;
+    }
+
+    form .likert:before {
+        content: '';
+        position: relative;
+        top: 11px;
+        left: 9.5%;
+        display: block;
+        background-color: #efefef;
+        height: 4px;
+        /*width:78%;*/
+        width: 58%;
+    }
+
+    form .likert li {
+        display: inline-block;
+        width: 19%;
+        text-align: center;
+        vertical-align: top;
+    }
+
+        form .likert li input[type=radio] {
+            display: block;
+            position: relative;
+            top: 0;
+            left: 50%;
+            margin-left: -6px;
+        }
+
+        form .likert li label {
+            width: 100%;
+        }
+
+form .buttons {
+    margin: 30px 0;
+    padding: 0 4.25%;
+    text-align: right;
+}
+
+
+
+
+/* my custom*/
+.img-logo {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.main-title {
+    text-align: right;
+    margin: 40px 0;
+    font-family: 'droid-n',sans-serif;
+    font-weight: bold;
+}
+
+.panel-heading {
+    text-align: right;
+}
+
+.section-title {
+    font-family: 'droid-n',sans-serif;
+    font-weight: bold;
+}
+
+.panel-default > .panel-heading {
+    border-color: #b6be10 !important;
+}
+
+.center-col {
+    float: none;
+    margin: 0 auto;
+}
+
+#btnSubmit {
+    font-family: 'droid-n',sans-serif;
+    background-color: #b6be10;
+    border-color: #b6be10;
+    margin: 10px;
+    padding: 15px 55px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.btn-submit {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.required {
+    color: red;
+}
+
+.content {
+    float: right !important;
+}
+
+.panel-default > .panel-heading {
+    background-color: #ddd;
+}
+
+span.span-survey {
+    font-family: 'droid-n',sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.container img#logo {
+    max-width: 80%;
+}
+
+form .likert {
+    font-family: 'droid-n',sans-serif;
+}
