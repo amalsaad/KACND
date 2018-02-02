@@ -122,3 +122,9 @@ span.span-survey {
 form .likert {
     font-family: 'droid-n',sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
+}
